@@ -1,0 +1,136 @@
+
+	.zong{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: auto;
+            position: absolute;
+            left: 0;
+            right:0;
+            bottom: 0;
+            top:0;
+            
+        }
+
+        .dian{
+            width:25px;
+            height: 25px;
+            border-radius: 50%;
+            position: absolute;
+            top:0;
+            left: 87px;
+            transform-origin: center 75px;
+        }
+
+        .dian:nth-child(1){
+            transform:rotate(0);
+            animation: flash1 1s infinite ;
+        }
+        .dian:nth-child(2){
+            transform:rotate(60deg);
+            animation: flash2 1s infinite ;
+        }
+        .dian:nth-child(3){
+            transform:rotate(120deg);
+            animation: flash3 1s infinite ;
+        }
+        .dian:nth-child(4){
+            transform:rotate(180deg);
+            animation: flash4 1s infinite ;
+        }
+        .dian:nth-child(5){
+            transform:rotate(240deg);
+            animation: flash5 1s infinite ;
+        }
+        .dian:nth-child(6){
+            transform:rotate(300deg);
+            animation: flash6 1s infinite ;
+        }
+
+        @keyframes flash1 {
+            0%{
+                background: rgba(0, 0, 0, 0);
+            }
+            20%{
+                background: rgba(0, 0, 0, 0);
+            }
+            50%{
+                background: rgba(0, 0, 0, 0.1);
+            }
+            100%{
+                background: rgba(0, 0, 0, 0);
+            }
+        }
+        @keyframes flash2 {
+            0%{
+                background: rgba(0, 0, 0, 0);
+            }
+            30%{
+                background: rgba(0, 0, 0, 0);
+            }
+            60%{
+                background: rgba(0, 0, 0, 0.3);
+            }
+            100%{
+                background: rgba(0, 0, 0, 0);
+            }
+        }
+        @keyframes flash3 {
+            0%{
+                background: rgba(0, 0, 0, 0);
+            }
+            40%{
+                background: rgba(0, 0, 0, 0);
+            }
+            70%{
+                background: rgba(0, 0, 0, 0.5);
+            }
+            100%{
+                background: rgba(0, 0, 0, 0);
+            }
+        }
+        @keyframes flash4 {
+            0%{
+                background: rgba(0, 0, 0, 0);
+            }
+            50%{
+                background: rgba(0, 0, 0, 0);
+            }
+            80%{
+                background: rgba(0, 0, 0, 0.7);
+            }
+            
+            100%{
+                background: rgba(0, 0, 0, 0);
+            }
+        }
+        @keyframes flash5 {
+            0%{
+                background: rgba(0, 0, 0, 0);
+            }
+            60%{
+                background: rgba(0, 0, 0, 0);
+            }
+           
+            90%{
+                background: rgba(0, 0, 0,0.9);
+            }
+           
+            100%{
+                background: rgba(0, 0, 0, 0);
+            }
+        }
+        @keyframes flash6 {
+            0%{
+                background: rgba(0, 0, 0, 0);
+            }
+            70%{
+                background: rgba(0, 0, 0, 0);
+            }
+            99%{
+                background: rgba(0, 0, 0, 1);
+            }
+            100%{
+                background: rgba(0, 0, 0, 0);
+            }
+        }

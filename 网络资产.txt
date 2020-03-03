@@ -1,0 +1,10 @@
+[vpn]
+server	:118.178.127.101
+username	:net_manager
+password	:p4ssw0rd
+
+[mysql]
+server	:47.114.142.135
+port	:3306 
+username	:user
+password	:casic#123.com
